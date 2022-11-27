@@ -1,0 +1,33 @@
+{
+  "engineName": "searchengine-movies-names",
+  "endpointBase": "https://search-engine-projet.ent.us-central1.gcp.cloud.es.io",
+  "searchKey": "search-wf3utpi249izrjqctdnparjk",
+  "resultFields": [
+    "year",
+    "releasedate",
+    "title",
+    "imdbrating",
+    "duration",
+    "contentrating",
+    "actors",
+    "averagerating",
+    "originaltitle",
+    "posterurl",
+    "genres",
+    "ratings",
+    "storyline",
+    "poster",
+    "id"
+  ],
+  "sortFields": [
+    "year"
+  ],
+  "facets": [
+    "genres",
+    "actors",
+    "imdbrating"
+  ],
+  "titleField": "title",
+  "urlField": "storyline",
+  "thumbnailField": "posterurl"
+}
